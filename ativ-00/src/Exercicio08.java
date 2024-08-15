@@ -9,7 +9,7 @@ public class Exercicio08 {
         System.out.println("Digite um numero inteiro:");
         N = scanner.nextInt();
 
-        ans = (N%2==0)? "par" : "impar"; // verifica se o resto da divisao do numero por 2 e 0
+        ans = (N%2==0)? "par" : "impar";
         System.out.println(N + " é " + ans);
         
         scanner.close();

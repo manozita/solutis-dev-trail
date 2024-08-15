@@ -3,13 +3,13 @@ import java.util.Scanner;
 public class Exercicio07 {
     public static void main(String[] args) throws Exception {
         var scanner = new Scanner(System.in);
-        int A, B, temp;
+        String A, B, temp;
 
-        System.out.println("Digite o valor de A:");
-        A = scanner.nextInt();
+        System.out.println("Digite o valor de A: ");
+        A = scanner.nextLine();
 
-        System.out.println("Digite o valor de B:");
-        B = scanner.nextInt();
+        System.out.println("Digite o valor de B: ");
+        B = scanner.nextLine();
 
         temp = A;
         A = B;

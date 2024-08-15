@@ -8,12 +8,10 @@ public class Exercicio04 {
         System.out.println("Digite a distancia, em milhas: ");
         dMilhas = scanner.nextDouble();
 
-        dKm = dMilhas/1.609;
+        dKm = dMilhas*1.609;
 
         System.out.println(dMilhas + " milhas = " + dKm + " quilometros.");
         
         scanner.close();
     }
 }
-
-    

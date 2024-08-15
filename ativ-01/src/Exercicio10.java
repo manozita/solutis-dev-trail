@@ -26,5 +26,7 @@ public class Exercicio10 {
                     break;
             }
         }
+        
+        System.out.println("A cadeia contem " + vogais + " vogais, " + consoantes + " consoantes e " + espacos + " espacos.");
     }
 }

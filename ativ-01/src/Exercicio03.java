@@ -19,7 +19,7 @@ public class Exercicio03 {
         System.out.println("Digite um valor inteiro:");
         num = scanner.nextInt();
 
-        for (int i = 2; i > num; i++) {
+        for (int i = 2; i < num; i++) {
             if (numeroPrimo(i))
                 System.out.println(i);
         }

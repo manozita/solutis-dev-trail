@@ -12,7 +12,7 @@ public class Exercicio05 {
         if (dia > 7 || dia < 1) {
             System.out.println("Numero invalido.");
         } else {
-            System.out.println("Dia da semana " + dia + ": " + diasDaSemana[dia-1]);
+            System.out.println("Dia " + dia + " da semana: " + diasDaSemana[dia-1]);
         }
 
         scanner.close();
