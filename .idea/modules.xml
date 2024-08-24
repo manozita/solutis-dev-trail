@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ativ-00/ativ-00.iml" filepath="$PROJECT_DIR$/ativ-00/ativ-00.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ativ-01/ativ-01.iml" filepath="$PROJECT_DIR$/ativ-01/ativ-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/solutis-dev-trail.iml" filepath="$PROJECT_DIR$/.idea/solutis-dev-trail.iml" />
+    </modules>
+  </component>
+</project>
