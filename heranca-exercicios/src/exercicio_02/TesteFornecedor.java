@@ -1,7 +1,7 @@
 package exercicio_02;
 import exercicio_01.Pessoa;
 
-public class TestaFornecedor {
+public class TesteFornecedor {
     public static void main(String[] args) {
 
         Fornecedor fornecedor1 = new Fornecedor("Nome1", "Endereco1", "Telefone1");

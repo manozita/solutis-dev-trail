@@ -1,7 +1,7 @@
 package exercicio_01;
 
 public class Pessoa {
-    // instancias
+    // variáveis
     private String nome;
     private String endereco;
     private String telefone;
@@ -48,10 +48,10 @@ public class Pessoa {
     // metodos
     public String toString() {
         String sPessoa = "\n\tNome: " + this.nome + "\n";
-        if (this.endereco != "") {
+        if (!this.endereco.isEmpty()) {
             sPessoa += "\tEndereco: " + this.endereco + "\n";
         }
-        if (this.telefone != "") {
+        if (!this.telefone.isEmpty()) {
             sPessoa += "\tTelefone: " + this.telefone + "\n";
         }
         return sPessoa;

@@ -2,7 +2,7 @@ package exercicio_02;
 import exercicio_01.Pessoa;
 
 public class Fornecedor extends Pessoa {
-    // instancias
+    // variáveis
     private double valorCredito, valorDivida;
 
     // construtores
@@ -44,9 +44,8 @@ public class Fornecedor extends Pessoa {
         return valorCredito - valorDivida;
     }
     public String toString() {
-        String sFornecedor = super.toString()
+        return (super.toString()
                 + "\tValor crédito: " + valorCredito
-                + "\n\tValor divida: " + valorDivida + "\n";
-        return sFornecedor;
+                + "\n\tValor divida: " + valorDivida + "\n");
     }
 }
