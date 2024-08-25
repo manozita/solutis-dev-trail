@@ -1,30 +1,30 @@
-package exercicio_05;
+package exercicio_06;
 import exercicio_01.Pessoa;
 import exercicio_03.Empregado;
 
-public class Operario extends Empregado {
+public class Vendedor extends Empregado {
 
     // variáveis
-    double valorProducao, comissao;
+    double valorVendas, comissao;
 
     // construtores
-    public Operario(String nome, String endereco, String telefone, int codigoSetor, double salarioBase, double imposto, double valorProducao, double comissao) {
+    public Vendedor(String nome, String endereco, String telefone, int codigoSetor, double salarioBase, double imposto, double valorVendas, double comissao) {
         super(nome, endereco, telefone, codigoSetor, salarioBase, imposto);
-        this.valorProducao = valorProducao;
+        this.valorVendas = valorVendas;
         this.comissao = comissao;
     }
-    public Operario(Pessoa pessoa, int codigoSetor, double salarioBase, double imposto, double valorProducao, double comissao) {
+    public Vendedor(Pessoa pessoa, int codigoSetor, double salarioBase, double imposto, double valorVendas, double comissao) {
         super(pessoa, codigoSetor, salarioBase, imposto);
-        this.valorProducao = valorProducao;
+        this.valorVendas = valorVendas;
         this.comissao = comissao;
     }
 
     // getters e setters
-    public double getValorProducao() {
-        return valorProducao;
+    public double getValorVendas() {
+        return valorVendas;
     }
-    public void setValorProducao(double valorProducao) {
-        this.valorProducao = valorProducao;
+    public void setValorVendas(double valorVendas) {
+        this.valorVendas = valorVendas;
     }
     public double getComissao() {
         return comissao;
@@ -36,12 +36,12 @@ public class Operario extends Empregado {
     // métodos
     @Override
     public double calcularSalario(double salario) {
-        double novoSalario = salario + valorProducao*comissao;
+        double novoSalario = salario + valorVendas*comissao;
         return super.calcularSalario(novoSalario);
     }
     public String toString() {
         return (super.toString()
-                + "\tSalário base com bonus: " + (getSalarioBase() + valorProducao*comissao)
+                + "\tSalário base com bonus: " + (getSalarioBase() + valorVendas*comissao)
                 + "\n\tSalário líquido: " + calcularSalario(getSalarioBase()) + "\n");
     }
 }
