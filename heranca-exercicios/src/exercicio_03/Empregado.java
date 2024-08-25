@@ -13,7 +13,6 @@ public class Empregado extends Pessoa {
         this.salarioBase = salarioBase;
         this.imposto = imposto;
     }
-
     public Empregado(Pessoa pessoa, int codigoSetor, double salarioBase, double imposto) {
         super(pessoa.getNome(), pessoa.getEndereco(), pessoa.getTelefone());
         this.codigoSetor = codigoSetor;
@@ -42,14 +41,13 @@ public class Empregado extends Pessoa {
     }
 
     // métodos
-    public double calcularSalario() {
-        return salarioBase - (salarioBase * imposto);
+    public double calcularSalario(double salario) {
+        return salario - (salario * imposto);
     }
     public String toString() {
         return (super.toString()
                 + "\tCódigo do setor: " + codigoSetor
                 + "\n\tSalário base: " + salarioBase
-                + "\n\tImposto: " + imposto*100 + "%"
-                + "\n\tSalário líquido: " + calcularSalario() + "\n");
+                + "\n\tImposto: " + imposto*100 + "%" + "\n");
     }
 }

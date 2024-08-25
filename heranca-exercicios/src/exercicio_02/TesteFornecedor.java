@@ -31,7 +31,7 @@ public class TesteFornecedor {
         fornecedor3.setValorDivida(999.99);
 
         // -------- impressao de valores
-        System.out.println("----------Fornecedor1----------\n" + fornecedor1.toString());
+        System.out.println("----------Fornecedor1----------\n" + fornecedor1);
         // metodo obterSaldo
         System.out.println("\tSaldo do fornecedor " + fornecedor1.getNome() + ": " + fornecedor1.obterSaldo());
         // alterando o valor de credito e divida e novo saldo
@@ -41,14 +41,14 @@ public class TesteFornecedor {
         System.out.println("\tNovo valor de dívida: " + fornecedor1.getValorDivida());
         System.out.println("\tNovo saldo: " + fornecedor1.obterSaldo());
 
-        System.out.println("\n----------Fornecedor2----------\n" + fornecedor2.toString());
+        System.out.println("\n----------Fornecedor2----------\n" + fornecedor2);
         // metodo obterSaldo
         System.out.println("\tSaldo do fornecedor " + fornecedor2.getNome() + ": " + fornecedor2.obterSaldo());
 
-        System.out.println("\n------------Pessoa1------------\n" + pessoa1.toString());
+        System.out.println("\n------------Pessoa1------------\n" + pessoa1);
 
         System.out.println("Formar Fornecedor 3 a partir da Pessoa1");
-        System.out.println("\n----------Fornecedor3----------\n" + fornecedor3.toString());
+        System.out.println("\n----------Fornecedor3----------\n" + fornecedor3);
         // metodo obterSaldo
         System.out.println("\tSaldo do fornecedor " + fornecedor3.getNome() + ": " + fornecedor3.obterSaldo());
         // alterar o endereço da pessoa
