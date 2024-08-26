@@ -25,7 +25,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "heranca-exercicios",
+    "git-widget-placeholder": "heranca-polimorfismo",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -54,6 +54,7 @@
       <workItem from="1724449829410" duration="41000" />
       <workItem from="1724513259363" duration="550000" />
       <workItem from="1724617159160" duration="30000" />
+      <workItem from="1724619469367" duration="59000" />
     </task>
     <servers />
   </component>
