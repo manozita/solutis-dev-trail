@@ -38,8 +38,7 @@ public class TesteFuncionario {
     public static Funcionario[] criarFuncionarios() {
         Funcionario[] funcionarios = new Funcionario[10];
 
-        int index = 0;
-        for (Funcionario funcionario : funcionarios) {
+        for (int index = 0; index < 10; index++) {
             if (index < 4) {
                 funcionarios[index] = new FuncionarioEnsinoBasico("Func " + (index+1), index + "0" + (index+1), "Escola básica " + (index+1));
             }
@@ -49,7 +48,6 @@ public class TesteFuncionario {
             else {
                 funcionarios[index] = new FuncionarioGraduacao("Func " + (index+1), (index+1) + "1" + (index+2), "Escola básica " + (index+1), "Escola ensino médio "+ (index+1), "Universidade "+ (index+1));
             }
-            index++;
         }
         return funcionarios;
     }
